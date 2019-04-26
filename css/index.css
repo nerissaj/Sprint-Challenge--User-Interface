@@ -70,7 +70,9 @@ nav a{
     margin:20px auto;
     text-decoration: none;
     color:black;
-    justify-content: center;
+    justify-content: space-around;
+    padding:40px;
+    margin:60px;
      
 }
 .highway{
@@ -231,6 +233,52 @@ footer {
 
 footer nav {
     width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/*About*/
+.sky{
+    display:flex;
+    margin:20px;
+    justify-content: center;
+}
+.about{
+    border-bottom: 1px dashed black;
+}
+.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display:flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+.about-footer {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
