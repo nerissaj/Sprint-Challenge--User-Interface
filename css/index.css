@@ -71,19 +71,28 @@ p {
     justify-content: center;
 
 }
+.logo{
+    margin: 30px;
+}
 nav a{
-    display:flex;
-    margin:20px auto;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:20px 400px;
     text-decoration: none;
     color:black;
     justify-content: center;
     padding:40px;
-    margin:60px;
+    margin:30px;
 }
+.img{
+    display: flex;
+    margin: 20px;
 
+}
 .container {
     width: 800px;
-    height:800px:
+    height:800px;
 }
 
 .top-content {
@@ -232,13 +241,14 @@ footer {
     background: black;
 }
 
-footer nav {
-    width: 60%;
+footer nav a{
+    height:100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+
     font-size: 14px;
+    padding:60px;
 }
 
 footer nav a {
@@ -337,4 +347,3 @@ main nav a {
     color: white;
     text-decoration: none;
 }
-*/
