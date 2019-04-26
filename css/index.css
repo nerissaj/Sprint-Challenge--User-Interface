@@ -64,25 +64,26 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+
 }
 nav a{
-    
+    display:flex;
     margin:20px auto;
     text-decoration: none;
     color:black;
-    justify-content: space-around;
+    justify-content: center;
     padding:40px;
     margin:60px;
-     
 }
-.highway{
-    display:flex;
-    margin:20px;
-    justify-content: center;
-}
+
 .container {
     width: 800px;
-    margin: 0 auto;
+    height:800px:
 }
 
 .top-content {
@@ -252,69 +253,88 @@ footer nav a {
     justify-content: center;
 }
 .about{
+    width:300px;
+    height:300px;
+    padding:15px;
     border-bottom: 1px dashed black;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    margin: 20px;
 }
-.container-about-page{
+
+.card{
     display:flex;
-    flex-wrap: wrap
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height:100%
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding:15px;
+}
+
+.card h2 p {
+    display: flex;
+	  flex-flow:column wrap;
+	padding:15px;
+	border:2px solid black;
+	width:450px;
+	height:450px;
+	justify-content:center;
+	margin:20px auto;
+  }
+  
+  
+  
+  .about-container {
+    
     padding: 15px;
     border-bottom: 1px dashed;
     margin: 0 auto;
+    padding: 2px 16px;
 }
-
-.about-top-content {
-    
-
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+button{
     padding:15px;
-}
-
-.about-middle-content {
-    display:flex;
-    flex-direction: column-reverse
-    width:600px;
-    padding:15px;
-
-flex-direction:row-reverse;
-    margin-bottom: 20px;
-    border: 1px dashed black;
-}
-
-.about-middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-.about-bottom-content{
-    
-    margin: 0 2% 20px;
-    justify-content: space-around;
-
-}
+   width:200px;
+    margin:40px auto;
+    text-align:left;
+    border: 1px solid black;
+    background-color: white;
+  }
 .about-footer {
     
-
-    flex-wrap:wrap;
-
+display:flex;
     
-    padding:15px;
     border:15px;
-    height:200px;
-    width:100%;
+    height:100px;
+    width:150%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
     font-size: 14px;
 }
+.about-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding:60px;
+    text-decoration: none;
+    color:white;
+}
 
-.about-footer nav a {
+header,
+footer {
+    height: 30px;
+}
+
+
+main nav a {
+    flex: 1;
+    color:white;
+    text-decoration: none;
+}
+
+.about-footer  a {
     color: white;
     text-decoration: none;
 }
+*/
