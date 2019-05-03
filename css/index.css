@@ -71,24 +71,54 @@ p {
     justify-content: center;
 
 }
+body{
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+}
 nav{
     display:flex;
+    flex-direction: row;
+    margin:20px;
+        text-decoration: none;
+        flex-wrap;
     
+        padding: 30px;
+}
+      
+  img{
+
     justify-content: center;
-    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 33px;
+  
 }
 nav img{
+
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+    padding: 3px;
+    flex-wrap: wrap;
     justify-content: center;
-    margin:20px;
+    
 }
     nav a{
+        padding: 0px;
+        margin: 20px;
+        text-align: center;
+        display:inline-block;
+        vertical-align:top;
         text-decoration: none;
         color: black;
-        border: solid white;
-        padding: 5px;
-        justify-content: space-between;
-        align-content: space-between;
-      width: 49%;
+        width: 79px;
+    
+        
 }
 
 header{
@@ -260,18 +290,15 @@ footer {
 
 footer nav a{
     height:100px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-
     font-size: 14px;
-    padding:60px;
-}
-
-footer nav a {
+    padding:20px;
     color: white;
     text-decoration: none;
 }
+
+
 
 /*About*/
 .sky{
@@ -281,13 +308,10 @@ footer nav a {
 }
 .about{
     
-    flex-wrap: wrap;
+    width: 55%;
+    display: flex;
     flex-direction: row;
-    padding: 15px;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 20px auto;
-    max-width: 100%;
+    
     border-bottom: 1px solid black;
 
 }
@@ -336,12 +360,10 @@ button{
     border-radius: 4px solid black;
   }
 .about-footer {
-    
 display:flex;
-    
     border:15px;
-    height:100px;
-    width:150%;
+    
+    width:100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -349,38 +371,35 @@ display:flex;
     font-size: 14px;
 }
 .about-wrapper {
-    height: 100vh;
+   
+    text-decoration: none;
+    color:white;
+}
+
+footer  {
+    flex-wrap: wrap;
     display: flex;
-    flex-direction: column;
-    padding:60px;
     text-decoration: none;
-    color:white;
-}
-
-footer {
-    height: 30px;
+    padding: 15px;
 }
 
 
-main nav a {
-    flex: 1;
-    color:white;
-    text-decoration: none;
-}
+
 
 .about-footer  a {
+    
     color: white;
     text-decoration: none;
+width: 120px;
+    padding: 8px;
+    margin: 25px;
+    display: flex;
+    height: 50px;
 }
-
 .letswork{
 
-flex-wrap: wrap;
+    width: 55%;
+    display: flex;
     flex-direction: row;
-    padding: 15px;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 20px auto;
-    max-width: 100%;
 
 }
