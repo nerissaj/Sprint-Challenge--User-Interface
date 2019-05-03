@@ -95,7 +95,10 @@ header{
     display: flex;
     flex-flow: row;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
 .flex-container{
     display: flex;
 flex-direction:row;
@@ -278,15 +281,21 @@ footer nav a {
 }
 .about{
     
-    padding:15px;
-    border-bottom: 1px dashed black;
-    
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 100%;
+    border-bottom: 1px solid black;
+
 }
 
 .card{
-    border: 1px solid black;
+   
     max-width: 45%;
-    background-color: lightgray;
+    border-bottom: 1px dashed black;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
@@ -298,7 +307,7 @@ footer nav a {
     width:50%
 }
 
-.card h2 p {
+.card h2 p{
     display: flex;
 	  flex-flow:column wrap;
 	padding:15px;
@@ -320,12 +329,11 @@ footer nav a {
 	justify-content:space-evenly;
 }
 button{
-    padding:15px;
-   width:200px;
-    margin:40px auto;
-    text-align:left;
-    border: 1px solid black;
+    padding:5px;
     background-color: white;
+
+    margin: 10px 0;
+    border-radius: 4px solid black;
   }
 .about-footer {
     
@@ -363,4 +371,16 @@ main nav a {
 .about-footer  a {
     color: white;
     text-decoration: none;
+}
+
+.letswork{
+
+flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 100%;
+
 }
