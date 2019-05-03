@@ -40,12 +40,12 @@ Everything has its proper place on the page just to make it easier to read like 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Display : block is vertically based.
-Display: inline is hortizontally base.
+Display : block is vertically based and need height and width
+Display: inline is hortizontally base and height and width has no effect on this.
 
 3. What are the 4 areas of the box model?
 
-width, border, margin, padding
+content, border, margin, padding
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
