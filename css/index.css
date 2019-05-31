@@ -84,20 +84,10 @@ nav{
     flex-direction: row;
     margin:20px;
         text-decoration: none;
-        flex-wrap;
-    
-        padding: 30px;
+        padding: 5px;
 }
       
-  img{
-
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 33px;
   
-}
 nav img{
 
     display: flex;
@@ -116,17 +106,16 @@ nav img{
         vertical-align:top;
         text-decoration: none;
         color: black;
-        width: 79px;
+        width: 100px;
     
         
 }
 
 header{
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+   
+  margin-left:auto;
+  margin-right:auto;
+
 }
 
 .flex-container{
@@ -289,11 +278,11 @@ footer {
 }
 
 footer nav a{
-    height:100px;
+   
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    padding:20px;
+    padding:10px;
     color: white;
     text-decoration: none;
 }
@@ -302,33 +291,42 @@ footer nav a{
 
 /*About*/
 .sky{
-    display:flex;
-    margin:20px;
+    width:100%;
     justify-content: center;
+    margin:20px;
+}
+.about h2 p{
+    width: 100%;
 }
 .about{
-    
-    width: 55%;
-    display: flex;
-    flex-direction: row;
-    
     border-bottom: 1px solid black;
-
+    padding:15px;
+    margin:20px;
 }
 
+#about-container{
+    display:flex;
+    max-width:100%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  
+
+    
+}
 .card{
    
-    max-width: 45%;
     border-bottom: 1px dashed black;
+    width: 40%;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
     align-content: space-around;
-    margin: 2.5%;
+    margin: 20px;
     padding:10px;
+    height:450px;
   }
 .card img{
-    width:50%
+justify-content: flex-start;
 }
 
 .card h2 p{
@@ -337,27 +335,19 @@ footer nav a{
 	padding:15px;
 	border:2px solid black;
 	width:450px;
-	
 	justify-content:center;
-	margin:20px auto;
+	margin:0 auto;
   }
   
   
   
-  .about-container {
-    padding:10px;
-	display:flex;
-	flex-direction: row;
-	max-width:100%;
-	flex-wrap:wrap;
-	justify-content:space-evenly;
-}
+  
 button{
     padding:5px;
     background-color: white;
-
     margin: 10px 0;
-    border-radius: 4px solid black;
+    border-radius: 4px;
+    border:1px solid black;
   }
 .about-footer {
 display:flex;
@@ -394,12 +384,16 @@ width: 120px;
     padding: 8px;
     margin: 25px;
     display: flex;
-    height: 50px;
+    height: 20px;
 }
 .letswork{
+    margin:40px;
+    
 
-    width: 55%;
-    display: flex;
-    flex-direction: row;
+}
+.letswork h2 p{
+    width:100px;
+    padding:30px;
 
+    
 }
